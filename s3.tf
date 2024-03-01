@@ -2,7 +2,7 @@ resource "aws_s3_bucket" "demo" {
   bucket = "aaa-hoth-demo-bucket"
 
   tags = {
-    Name         = "aaa-hot-demo-bucket"
+    Name         = "aaa-hoth-demo-bucket"
     Environment  = "Demo"
     AdminContact = "Anakin Skywalker"
     TechContact  = "Luke Skywalker"
